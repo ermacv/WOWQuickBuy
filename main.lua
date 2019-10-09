@@ -21,6 +21,7 @@ function OnEvent(event, arg)
         PressAndReleaseMouseButton(LeftMouseButton);
         Sleep(10)
         MoveMouseTo(WOWBuyButtonXPos, WOWBuyButtonYPos)
+        PressAndReleaseMouseButton(LeftMouseButton);
         Sleep(10)
         MoveMouseTo(WOWBuyAcceptButtonXPos, WOWBuyAcceptButtonYPos)
         PressAndReleaseMouseButton(LeftMouseButton);
